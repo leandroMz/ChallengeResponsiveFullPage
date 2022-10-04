@@ -1,0 +1,167 @@
+@import 'mobile.css';
+@import 'desktop.css';
+@import 'animation.css';
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+
+/* ROOT */
+:root {
+    --botones: #F3603B;
+    --titulos: #232851;
+    --parrafos: #B3B2B7;
+    --footer: #1E1E26;
+    --fondo-gris: #eeebe8;
+}
+
+/* MARGEN INICIAL + CONFIG. */
+* {
+    color: black;
+    font-family: "Be Vietnam Pro";
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+
+/* CONFIGURACIONES GENERALES */
+header {
+    padding: 3.75rem 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3,
+h4 {
+    color: var(--titulos);
+}
+
+p {
+    color: var(--parrafos);
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--botones);
+    border-radius: 50px;
+    color: #FFFFFF;
+    border: var(--botones);
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+    max-width: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    padding: 0px 60px;
+    margin: 30px 0px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 20px;
+    background: var(--footer);
+}
+
+.ali,
+.anisha,
+.richard {
+    background-color: var(--fondo-gris);
+}
+
+
+/* HEADER*/
+.marca {
+    font-stretch: 200px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+/* FIN HEADER */
+
+
+/* MAIN */
+/* Bring everyone... + grafico */
+.graf {
+    display: flex;
+    flex-direction: column;
+}
+article .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    justify-content: space-between;
+    padding: 10px;
+}
+.title {
+    font-size: 3rem;
+}
+.bt1 {
+    padding: 13px 18px;
+}
+
+/* "whats different..." */
+.sub-title {
+    font-size: 2.25rem;
+}
+
+/* Articulos... */
+.sub-title2 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* COMENTARIOS USUARIOS */
+.title2 {
+    font-size: 2.451rem;
+    margin: 3.75rem;
+}
+.picture {
+    margin: 1.31rem;
+    height: 70px;
+    width: 70px;
+}
+.name {
+    margin: 1.31rem;
+    font-size: 1rem;
+}
+.parrafo2 {
+    margin: 1.31rem;
+}
+
+
+/* simplify how your team... */
+.box4 {
+    height: 14rem;
+    background: var(--botones);
+    margin: 0px;
+}
+.sub-title3 {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.bt3 {
+    color: var(--botones);
+    padding: 10px 25px;
+    background-color: #FFFFFF;
+}
+/* FIN MAIN */
+
+
+/* FOOTER */
+.listas a {
+    color: white;
+    padding: 30px;
+    line-height: 2;
+    font-size: 16px;
+}
+/* FIN FOOTER */
